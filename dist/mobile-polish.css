@@ -1,0 +1,18 @@
+/* Compact opening and no persistent contact bar. */
+.mobile-bar{display:none!important}
+@media(max-width:700px){
+ .hero-copy{padding-top:26px}
+ .hero h1{font-size:clamp(58px,15.5vw,80px);line-height:.98}
+ .hero .eyebrow{margin-bottom:14px}
+ .hero .lead{margin-top:16px}
+ .hero .actions{margin-top:18px}
+ .hero-proof{margin-top:18px}
+ .hero-food{position:relative;width:min(100%,320px);height:220px;max-width:320px;margin:4px auto 8px}
+ .hero-food img{position:absolute;inset:-38px 0 auto;width:100%;height:285px;object-fit:contain;transform:rotate(-8deg) scale(1.14)}
+ .hero-food .food-ring{inset:12px 25px}
+ .hero-food .seal{width:78px;height:78px;right:0;top:12px;font-size:6px}
+ .hero-food .seal strong{font-size:19px}
+ .hero-food .seal span{font-size:5px}
+ .hero-food figcaption{bottom:0;right:4px;font-size:8px}
+ footer{padding-bottom:24px}
+}
