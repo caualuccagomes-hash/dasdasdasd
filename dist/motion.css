@@ -1,4 +1,6 @@
 :root{--ease-out:cubic-bezier(.23,1,.32,1);--ease-in-out:cubic-bezier(.77,0,.175,1)}
+.reveal-pending{opacity:0}
+@media(prefers-reduced-motion:reduce){.reveal-pending{opacity:1}}
 header{transition:box-shadow 220ms ease,border-color 220ms ease}
 header.scrolled{box-shadow:0 5px 22px #17080030;border-bottom-color:#ffbd162b}
 .button{transition:transform 180ms var(--ease-out),background 180ms ease,box-shadow 180ms ease}

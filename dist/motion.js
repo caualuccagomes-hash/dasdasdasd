@@ -9,6 +9,7 @@
   function enter(element, delay = 0, distance = 26) {
     if (revealed.has(element)) return;
     revealed.add(element);
+    element.classList.remove('reveal-pending');
     if (reduced.matches || !element.animate || element.contains(document.activeElement)) return;
     const visual = element.matches('figure, .dish, .hero-food, .address-panel');
     const animation = element.animate([
@@ -32,16 +33,30 @@
       reveal.unobserve(entry.target);
       enter(entry.target, Math.min(i * 100, 300));
     });
-  }, { threshold: .08, rootMargin: '0px 0px -28px 0px' });
+  }, { threshold: 0, rootMargin: '0px' });
   targets.forEach(el => {
     // Animate the smallest content block only, never both it and its ancestor.
-    if (![...targets].some(other => other !== el && el.contains(other))) reveal.observe(el);
+    if ([...targets].some(other => other !== el && el.contains(other))) return;
+    const rect = el.getBoundingClientRect();
+    // Already visible content must never be faded back to zero on scroll.
+    // Collapsed details are observed without hiding their invisible children.
+    if (rect.height > 0 && rect.top < window.innerHeight && rect.bottom > 0) {
+      revealed.add(el);
+      return;
+    }
+    if (!reduced.matches && rect.height > 0 && rect.top >= window.innerHeight) {
+      el.classList.add('reveal-pending');
+    }
+    reveal.observe(el);
   });
   reduced.addEventListener('change', () => {
-    if (reduced.matches) { running.forEach(a => a.cancel()); running.clear(); }
+    if (reduced.matches) { running.forEach(a => a.cancel()); running.clear(); targets.forEach(el => el.classList.remove('reveal-pending')); }
   });
   // Never leave a keyboard-focused control inside an invisible entrance.
   document.addEventListener('focusin', e => {
+    targets.forEach(el => {
+      if (el.contains(e.target)) { el.classList.remove('reveal-pending'); revealed.add(el); reveal.unobserve(el); }
+    });
     running.forEach(a => { if (a.effect.target.contains(e.target)) a.cancel(); });
   });
   const header = document.querySelector('header');
