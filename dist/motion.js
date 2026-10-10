@@ -1,9 +1,14 @@
 /* One-time entrances and restrained interaction feedback; no dependencies. */
 (() => {
+  if (window.trapicheMotionInitialized) return;
+  window.trapicheMotionInitialized = true;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const running = new Set();
+  const revealed = new WeakSet();
   const easing = 'cubic-bezier(0.23, 1, 0.32, 1)';
   function enter(element, delay = 0, distance = 26) {
+    if (revealed.has(element)) return;
+    revealed.add(element);
     if (reduced.matches || !element.animate || element.contains(document.activeElement)) return;
     const visual = element.matches('figure, .dish, .hero-food, .address-panel');
     const animation = element.animate([
@@ -22,13 +27,16 @@
   }
   const targets = document.querySelectorAll('.intro-grid > *, .section-heading > *, .dish, .menu-cta, .about-grid > figure, .about-grid > div > *, .review-grid > div:first-child > *, .quotes > *, .services > .wrap > .eyebrow, .services > .wrap > h2, .service-grid > article, .location-grid > div:first-child > *, .address-panel, .gallery-heading > *, .gallery-mosaic > figure, .menu-heading > div > *, .menu-drawer-toggle, .menu-group, .footer-top > *');
   const reveal = new IntersectionObserver(entries => {
-    const entering = entries.filter(entry => entry.isIntersecting);
+    const entering = entries.filter(entry => entry.isIntersecting && !revealed.has(entry.target));
     entering.forEach((entry, i) => {
       reveal.unobserve(entry.target);
       enter(entry.target, Math.min(i * 100, 300));
     });
   }, { threshold: .08, rootMargin: '0px 0px -28px 0px' });
-  targets.forEach(el => reveal.observe(el));
+  targets.forEach(el => {
+    // Animate the smallest content block only, never both it and its ancestor.
+    if (![...targets].some(other => other !== el && el.contains(other))) reveal.observe(el);
+  });
   reduced.addEventListener('change', () => {
     if (reduced.matches) { running.forEach(a => a.cancel()); running.clear(); }
   });
