@@ -1,0 +1,770 @@
+[
+  {
+    "name": "Entradas",
+    "note": "",
+    "items": [
+      {
+        "name": "Carneiro aperitivo",
+        "price": "60,00",
+        "description": "Manta de carneiro de Tauá com macaxeira na manteiga da terra. Acompanha vinagrete, farofa e geleia de maçã com ervas e pimenta."
+      },
+      {
+        "name": "Camarão crocante",
+        "price": "40,00",
+        "description": "Camarão empanado na farinha panko. Acompanha molho de gorgonzola."
+      },
+      {
+        "name": "Isca de peixe",
+        "price": "40,00",
+        "description": "Filé de peixe, empanado na farinha panko e acompanha molho rosé."
+      },
+      {
+        "name": "Camarão Trapiche",
+        "price": "49,00",
+        "description": "Eviscerado, refogado no azeite com pimentão, cebola, tomate, champignon, alcaparras e torradas."
+      },
+      {
+        "name": "Croquete cordeiro",
+        "price": "20,00",
+        "description": "Cordeiro de Tauá, cozido e empanado."
+      },
+      {
+        "name": "Rolinho de carne seca",
+        "price": "25,00",
+        "description": "Carne de sol com cebola roxa, Catupiry, assado na massa de pizza."
+      },
+      {
+        "name": "Queijo curado",
+        "price": "15,00",
+        "description": "Queijo coalho envelhecido."
+      },
+      {
+        "name": "Queijo à milanesa",
+        "price": "20,00",
+        "description": "Queijo coalho de Tauá empanado."
+      },
+      {
+        "name": "Batata frita",
+        "price": "17,00",
+        "description": "200 g de batata com molho rosé."
+      },
+      {
+        "name": "Filé trinchado",
+        "price": "49,00",
+        "description": "250 g de filé mignon, ao molho Roti, acompanhado de batata frita."
+      },
+      {
+        "name": "Picanha argentina",
+        "price": "90,00",
+        "description": "380 g de picanha, batata frita, farofa e vinagrete."
+      },
+      {
+        "name": "Carne de sol",
+        "price": "65,00",
+        "description": "380 g de carne de sol de alcatra, macaxeira na manteiga da terra, cebola roxa e queijo."
+      },
+      {
+        "name": "Linguiça mineira",
+        "price": "30,00",
+        "description": "2 linguiças toscanas fatiadas e aceboladas, 2 pães de alho, farofa e vinagrete."
+      },
+      {
+        "name": "Linguiça de cordeiro",
+        "price": "30,00",
+        "description": "250 g de linguiça de cordeiro, geleia de maçã, farofa e vinagrete."
+      },
+      {
+        "name": "Pão de alho",
+        "price": "8,00",
+        "description": "Pão de alho com molho do chef."
+      },
+      {
+        "name": "Tábua de frios",
+        "price": "40,00",
+        "description": "Queijos, salame, torradas, ovos de codorna e palmito."
+      },
+      {
+        "name": "Maminha argentina",
+        "price": "60,00",
+        "description": "380 g de maminha, macaxeira na manteiga da terra, farofa e vinagrete."
+      }
+    ]
+  },
+  {
+    "name": "Pratos principais",
+    "note": "",
+    "items": [
+      {
+        "name": "Camarão nacional",
+        "price": "90,00",
+        "description": "Camarão, arroz cremoso, ervilha, batata palha, gratinado no forno com mussarela."
+      },
+      {
+        "name": "Camarão Trapiche",
+        "price": "90,00",
+        "description": "Eviscerado, refogado no azeite com legumes. Acompanha arroz branco."
+      },
+      {
+        "name": "Tilápia frita",
+        "price": "60,00",
+        "description": "800 g de tilápia frita, baião e salada."
+      },
+      {
+        "name": "Peixe ao molho camarão",
+        "price": "99,00",
+        "description": "380 g de pescada amarela com molho camarão e arroz branco."
+      },
+      {
+        "name": "Camarão à baiana",
+        "price": "85,00",
+        "description": "Camarão no molho picante. Acompanha arroz branco."
+      },
+      {
+        "name": "Salmão Trapiche",
+        "price": "105,00",
+        "description": "380 g de salmão fresco com palmito, batata rústica e pimentões coloridos. Acompanha arroz branco."
+      },
+      {
+        "name": "Peixe do chef",
+        "price": "99,00",
+        "description": "380 g de filé de pescado amarelo, puxado no azeite com pimentões coloridos, cebola, tomate e batata rústica. Acompanha arroz branco."
+      },
+      {
+        "name": "Peixe à delícia",
+        "price": "99,00",
+        "description": "380 g de pescada amarela empanada, purê de batata e queijo mussarela gratinado no forno. Acompanha arroz branco."
+      }
+    ]
+  },
+  {
+    "name": "Massas e risotos",
+    "note": "",
+    "items": [
+      {
+        "name": "Espaguete",
+        "price": "35,00",
+        "description": "Carbonara ou Bolonhesa."
+      },
+      {
+        "name": "Fettuccine",
+        "price": "35,00",
+        "description": "Camarão, filé ou salmão."
+      },
+      {
+        "name": "Lasanha",
+        "price": "30,00",
+        "description": ""
+      },
+      {
+        "name": "Risoto de camarão",
+        "price": "40,00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Churrascos para compartilhar",
+    "note": "",
+    "items": [
+      {
+        "name": "Churrasco de picanha · 3 pessoas",
+        "price": "130,00",
+        "description": "Picanha argentina 200 g, maminha argentina 200 g, 2 linguiças toscanas, baião, salada e batata frita."
+      },
+      {
+        "name": "Churrasco de picanha · 4 pessoas",
+        "price": "190,00",
+        "description": "Picanha argentina 380 g, maminha argentina 200 g, 3 linguiças toscanas, baião, salada e batata frita."
+      },
+      {
+        "name": "Churrasco de carneiro · 3 pessoas",
+        "price": "110,00",
+        "description": "Manta de carneiro 200 g, maminha argentina 200 g, 2 linguiças toscanas, baião, salada e batata frita."
+      },
+      {
+        "name": "Churrasco de carneiro · 4 pessoas",
+        "price": "150,00",
+        "description": "Manta de carneiro 380 g, maminha argentina 200 g, 3 linguiças toscanas, baião, salada e batata frita."
+      }
+    ]
+  },
+  {
+    "name": "Refeições",
+    "note": "Porções de 200 g para 1 pessoa e 380 g para 2 pessoas, conforme o cardápio.",
+    "items": [
+      {
+        "name": "Picanha argentina",
+        "price": "200 g: R$ 49,00 · 380 g: R$ 99,00",
+        "description": "Baião e batata nas duas porções."
+      },
+      {
+        "name": "Maminha argentina",
+        "price": "200 g: R$ 45,00 · 380 g: R$ 90,00",
+        "description": "200 g: arroz branco e salada. 380 g: espaguete ao alho e óleo e salada."
+      },
+      {
+        "name": "Manta de carneiro de Tauá",
+        "price": "200 g: R$ 45,00 · 380 g: R$ 90,00",
+        "description": "200 g: arroz à grega e macaxeira cozida. 380 g: macaxeira cozida na manteiga da terra e arroz à grega."
+      },
+      {
+        "name": "Carne de sol",
+        "price": "200 g: R$ 40,00 · 380 g: R$ 80,00",
+        "description": "200 g: baião e queijo coalho. 380 g: macaxeira cozida na manteiga da terra."
+      },
+      {
+        "name": "Filé à parmegiana · 360 g",
+        "price": "99,00",
+        "description": "Fettuccine e molho de tomate."
+      },
+      {
+        "name": "Filé ao molho Roti ou 4 queijos · 380 g",
+        "price": "90,00",
+        "description": "Arroz e legumes."
+      }
+    ]
+  },
+  {
+    "name": "Churrasco no kg",
+    "note": "Nome da categoria preservado do PDF; os preços são das porções de 200 g e 380 g indicadas, não de 1 kg.",
+    "items": [
+      {
+        "name": "Picanha argentina",
+        "price": "200 g: R$ 49,00 · 380 g: R$ 90,00",
+        "description": "380 g: acompanha batata."
+      },
+      {
+        "name": "Maminha argentina",
+        "price": "200 g: R$ 35,00 · 380 g: R$ 60,00",
+        "description": "380 g: macaxeira cozida na manteiga da terra."
+      },
+      {
+        "name": "Manta de carneiro de Tauá",
+        "price": "200 g: R$ 35,00 · 380 g: R$ 60,00",
+        "description": "380 g: macaxeira cozida na manteiga da terra."
+      },
+      {
+        "name": "Carne de sol",
+        "price": "200 g: R$ 30,00 · 380 g: R$ 55,00",
+        "description": "380 g: macaxeira cozida na manteiga da terra."
+      }
+    ]
+  },
+  {
+    "name": "Petiscos",
+    "note": "",
+    "items": [
+      {
+        "name": "Pão de alho",
+        "price": "8,00",
+        "description": ""
+      },
+      {
+        "name": "Linguiça toscana · unidade",
+        "price": "7,00",
+        "description": ""
+      },
+      {
+        "name": "Queijo coalho assado",
+        "price": "15,00",
+        "description": ""
+      },
+      {
+        "name": "Linguiça de cordeiro · 250 g",
+        "price": "30,00",
+        "description": ""
+      },
+      {
+        "name": "Linguiça à mineira · 250 g",
+        "price": "30,00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Sobremesas",
+    "note": "",
+    "items": [
+      {
+        "name": "Pudim de leite",
+        "price": "8,00",
+        "description": ""
+      },
+      {
+        "name": "Charlote",
+        "price": "10,00",
+        "description": ""
+      },
+      {
+        "name": "Petit gâteau",
+        "price": "12,00",
+        "description": ""
+      },
+      {
+        "name": "Chocolate quente",
+        "price": "12,00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Pizzas promocionais",
+    "note": "Tamanhos e valores: P · R$ 40,00 / M · R$ 45,00 / G · R$ 50,00",
+    "items": [
+      {
+        "name": "Calabresa",
+        "price": "P 40,00 · M 45,00 · G 50,00",
+        "description": "Molho de tomate, muçarela, calabresa, cebola, azeitonas e orégano."
+      },
+      {
+        "name": "Marguerita",
+        "price": "P 40,00 · M 45,00 · G 50,00",
+        "description": "Molho de tomate, muçarela, rodelas de tomate, salpicada com parmesão, manjericão e orégano."
+      },
+      {
+        "name": "Presunto",
+        "price": "P 40,00 · M 45,00 · G 50,00",
+        "description": "Molho de tomate, presunto, muçarela, milho e orégano."
+      },
+      {
+        "name": "Muçarela",
+        "price": "P 40,00 · M 45,00 · G 50,00",
+        "description": "Molho de tomate, muçarela e orégano."
+      }
+    ]
+  },
+  {
+    "name": "Pizzas tradicionais",
+    "note": "Tamanhos e valores: P · R$ 45,00 / M · R$ 55,00 / G · R$ 60,00",
+    "items": [
+      {
+        "name": "Portuguesa",
+        "price": "P 45,00 · M 55,00 · G 60,00",
+        "description": "Molho de tomate, muçarela, presunto, ovos, cebola, azeitonas e orégano."
+      },
+      {
+        "name": "Atum",
+        "price": "P 45,00 · M 55,00 · G 60,00",
+        "description": "Molho de tomate, muçarela, atum, cebola, azeitonas e orégano."
+      },
+      {
+        "name": "Bacon",
+        "price": "P 45,00 · M 55,00 · G 60,00",
+        "description": "Molho de tomate, muçarela, bacon, cebola e orégano."
+      },
+      {
+        "name": "Toscana",
+        "price": "P 45,00 · M 55,00 · G 60,00",
+        "description": "Molho de tomate, muçarela, calabresa moída, parmesão e orégano."
+      },
+      {
+        "name": "Paraíso",
+        "price": "P 45,00 · M 55,00 · G 60,00",
+        "description": "Molho de tomate, muçarela, calabresa, ovos, parmesão, manjericão e azeitonas pretas."
+      },
+      {
+        "name": "Brócolis",
+        "price": "P 45,00 · M 55,00 · G 60,00",
+        "description": "Molho de tomate, muçarela, brócolis marinado no alho, cebola, parmesão, alho frito e orégano."
+      },
+      {
+        "name": "Rúcula",
+        "price": "P 45,00 · M 55,00 · G 60,00",
+        "description": "Molho de tomate, rúcula, muçarela, tomate seco e orégano."
+      }
+    ]
+  },
+  {
+    "name": "Pizzas especiais",
+    "note": "Tamanhos e valores: P · R$ 50,00 / M · R$ 60,00 / G · R$ 65,00",
+    "items": [
+      {
+        "name": "Quatro queijos",
+        "price": "P 50,00 · M 60,00 · G 65,00",
+        "description": "Molho de tomate, muçarela, gorgonzola, Catupiry®, parmesão e orégano."
+      },
+      {
+        "name": "Carne de sol",
+        "price": "P 50,00 · M 60,00 · G 65,00",
+        "description": "Molho de tomate, muçarela, carne seca, Catupiry® e cebola roxa."
+      },
+      {
+        "name": "Pepperoni",
+        "price": "P 50,00 · M 60,00 · G 65,00",
+        "description": "Molho de tomate, muçarela, pepperoni, parmesão e orégano."
+      },
+      {
+        "name": "Camarão",
+        "price": "P 50,00 · M 60,00 · G 65,00",
+        "description": "Molho de tomate, muçarela, camarão, pimenta de cheiro e orégano."
+      },
+      {
+        "name": "Vesúvio",
+        "price": "P 50,00 · M 60,00 · G 65,00",
+        "description": "Molho de tomate, peito de peru, alho-poró, Catupiry®, muçarela e orégano."
+      }
+    ]
+  },
+  {
+    "name": "Pizzas supremas",
+    "note": "Tamanhos e valores: P · R$ 55,00 / M · R$ 65,00 / G · R$ 75,00",
+    "items": [
+      {
+        "name": "Francini",
+        "price": "P 55,00 · M 65,00 · G 75,00",
+        "description": "Molho de tomate, lombo canadense, presunto cozido, palmito, champignon marinado no alho, bacon, Catupiry®, muçarela e orégano."
+      },
+      {
+        "name": "Camarão c/ Catupiry",
+        "price": "P 55,00 · M 65,00 · G 75,00",
+        "description": "Molho de tomate, muçarela, camarão, Catupiry® e orégano."
+      },
+      {
+        "name": "Bacon aos 4 queijos",
+        "price": "P 55,00 · M 65,00 · G 75,00",
+        "description": "Molho de tomate, bacon, muçarela, gorgonzola, Catupiry®, parmesão e orégano."
+      },
+      {
+        "name": "Pompeia",
+        "price": "P 55,00 · M 65,00 · G 75,00",
+        "description": "Molho de tomate, muçarela, peito de peru, palmito, champignon marinado no alho, parmesão e orégano."
+      },
+      {
+        "name": "Caprese",
+        "price": "P 55,00 · M 65,00 · G 75,00",
+        "description": "Molho de tomate, muçarela, rodelas de tomate caqui, manjericão, muçarela de búfala, pesto de azeitonas e orégano."
+      }
+    ]
+  },
+  {
+    "name": "Pizzas doces",
+    "note": "Tamanhos e valores: P · R$ 25,00 / M · R$ 30,00 / G · R$ 35,00",
+    "items": [
+      {
+        "name": "Banana",
+        "price": "P 25,00 · M 30,00 · G 35,00",
+        "description": "Muçarela, banana, canela e leite condensado."
+      },
+      {
+        "name": "Chocolate",
+        "price": "P 25,00 · M 30,00 · G 35,00",
+        "description": "Brigadeiro de chocolate."
+      },
+      {
+        "name": "Nutella c/ Ninho",
+        "price": "P 25,00 · M 30,00 · G 35,00",
+        "description": "Nutella e creme de Ninho."
+      }
+    ]
+  },
+  {
+    "name": "Bordas e pizza do dia",
+    "note": "Pizza do dia conforme o PDF fornecido. Confirme a vigência e as condições pelo telefone.",
+    "items": [
+      {
+        "name": "Borda de Catupiry",
+        "price": "M: R$ 10,00 · G: R$ 15,00",
+        "description": ""
+      },
+      {
+        "name": "Borda de cheddar",
+        "price": "M: R$ 10,00 · G: R$ 15,00",
+        "description": ""
+      },
+      {
+        "name": "Borda de chocolate",
+        "price": "M: R$ 10,00 · G: R$ 15,00",
+        "description": ""
+      },
+      {
+        "name": "Terça · Carne de sol G + Guaraná 1 L",
+        "price": "50,00",
+        "description": "Molho de tomate, muçarela, carne seca, Catupiry® e cebola roxa."
+      },
+      {
+        "name": "Quarta · Paraíso G + Guaraná 1 L",
+        "price": "50,00",
+        "description": "Molho de tomate, muçarela, calabresa, ovos, parmesão, manjericão e azeitonas pretas."
+      },
+      {
+        "name": "Quinta · Francini G + Guaraná 1 L",
+        "price": "50,00",
+        "description": "Molho de tomate, lombo canadense, presunto cozido, palmito, champignon marinado no alho, bacon, Catupiry®, muçarela e orégano."
+      }
+    ]
+  },
+  {
+    "name": "Vinhos",
+    "note": "",
+    "items": [
+      {
+        "name": "Taça de vinho",
+        "price": "15,00",
+        "description": "Taça."
+      },
+      {
+        "name": "Quinta do Morgado",
+        "price": "35,00",
+        "description": "Garrafa."
+      },
+      {
+        "name": "Chilano",
+        "price": "60,00",
+        "description": "Vinho chileno."
+      },
+      {
+        "name": "Tarapaca",
+        "price": "90,00",
+        "description": ""
+      },
+      {
+        "name": "Rapariga da Quinta",
+        "price": "90,00",
+        "description": "Vinho português."
+      },
+      {
+        "name": "Casillero del Diablo",
+        "price": "90,00",
+        "description": "Vinho chileno."
+      },
+      {
+        "name": "Vinho Trapiche",
+        "price": "90,00",
+        "description": "Vinho argentino."
+      },
+      {
+        "name": "Zan Rosso",
+        "price": "95,00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Drinks",
+    "note": "Valores do festival conforme o PDF. As descrições são das versões com álcool; consulte as adaptações sem álcool.",
+    "items": [
+      {
+        "name": "Piña colada",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Suco de abacaxi, leite condensado, rum e leite de coco."
+      },
+      {
+        "name": "Espanhola",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Suco de abacaxi, vodka, vinho tinto e leite condensado."
+      },
+      {
+        "name": "Margherita",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Tequila, licor de laranja, suco de limão e sal."
+      },
+      {
+        "name": "Lagoa azul",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Vodka, suco de limão, licor curaçau e Sprite."
+      },
+      {
+        "name": "Aperol spritz",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Aperol, espumante e soda."
+      },
+      {
+        "name": "Alexander",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Licor de cacau, conhaque, creme de leite e canela."
+      },
+      {
+        "name": "Coquetel de frutas",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Vodka, frutas e leite condensado."
+      },
+      {
+        "name": "Tennessee whisky",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Jack Daniel’s, suco de limão, açúcar, espuma gengibre."
+      },
+      {
+        "name": "Mojito",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Rum Bacardi, limão, hortelã e Sprite."
+      },
+      {
+        "name": "Cuba libre",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Rum Montila, Coca-Cola, limão e gelo."
+      },
+      {
+        "name": "Dry martini",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Vermouth, gin e azeitona verde."
+      },
+      {
+        "name": "Gin tônica",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Gin, água tônica e limão."
+      },
+      {
+        "name": "Gin tropical",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Gin, rodela de laranja e Red Bull tropical."
+      },
+      {
+        "name": "Sex on the beach",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Vodka, licor de pêssego, suco de laranja e groselha."
+      },
+      {
+        "name": "Tequila sunrise",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Tequila, suco de laranja e xarope grenadine."
+      },
+      {
+        "name": "Negroni",
+        "price": "Com álcool: R$ 22,00 · Sem álcool: R$ 15,00",
+        "description": "Gin, vermouth, Campari e laranja."
+      },
+      {
+        "name": "Caipirinha",
+        "price": "12,00",
+        "description": "Tradicional brasileira."
+      },
+      {
+        "name": "Caipiroska",
+        "price": "15,00",
+        "description": "Vodka Smirnoff, açúcar, limão e gelo."
+      }
+    ]
+  },
+  {
+    "name": "Bebidas",
+    "note": "",
+    "items": [
+      {
+        "name": "Refrigerante · lata",
+        "price": "6,00",
+        "description": "Coca-Cola (normal/zero), Fanta (laranja/uva), Sprite ou Citrus."
+      },
+      {
+        "name": "Refrigerante · 1 L",
+        "price": "9,90",
+        "description": "Coca-Cola, Guaraná Antarctica."
+      },
+      {
+        "name": "Refrigerante · 1,5 L",
+        "price": "11,90",
+        "description": "Coca-Cola."
+      },
+      {
+        "name": "Suco da fruta",
+        "price": "Copo: R$ 8,00 · Jarra: R$ 14,00",
+        "description": "Laranja, limão ou abacaxi."
+      },
+      {
+        "name": "Suco de polpa",
+        "price": "Copo: R$ 8,00 · Jarra: R$ 14,00",
+        "description": "Acerola, caju ou morango."
+      },
+      {
+        "name": "Chopp Itaipava · 350 ml",
+        "price": "11,99",
+        "description": ""
+      },
+      {
+        "name": "Heineken · long neck",
+        "price": "10,00",
+        "description": ""
+      },
+      {
+        "name": "Skol",
+        "price": "12,00",
+        "description": ""
+      },
+      {
+        "name": "Spaten / Bohemia",
+        "price": "14,00",
+        "description": ""
+      },
+      {
+        "name": "Heineken / Stella",
+        "price": "18,00",
+        "description": ""
+      },
+      {
+        "name": "Artesanais",
+        "price": "24,00",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Cachaças e whiskies",
+    "note": "",
+    "items": [
+      {
+        "name": "Salinas",
+        "price": "8,00",
+        "description": ""
+      },
+      {
+        "name": "Ypióca 150 anos",
+        "price": "10,00",
+        "description": ""
+      },
+      {
+        "name": "Ypióca",
+        "price": "4,00",
+        "description": ""
+      },
+      {
+        "name": "Ypióca empalhada",
+        "price": "5,00",
+        "description": ""
+      },
+      {
+        "name": "Rapariga",
+        "price": "5,00",
+        "description": ""
+      },
+      {
+        "name": "Maripurunga",
+        "price": "6,00",
+        "description": "Envelhecida em tonel de ipê."
+      },
+      {
+        "name": "Black & White",
+        "price": "8,00",
+        "description": "Listado como promocional no PDF; confirme a vigência."
+      },
+      {
+        "name": "Red Label · 8 anos",
+        "price": "11,00",
+        "description": ""
+      },
+      {
+        "name": "White Horse · 8 anos",
+        "price": "11,00",
+        "description": ""
+      },
+      {
+        "name": "J&B · 8 anos",
+        "price": "11,00",
+        "description": ""
+      },
+      {
+        "name": "Old Par · 12 anos",
+        "price": "14,00",
+        "description": ""
+      },
+      {
+        "name": "Chivas · 12 anos",
+        "price": "14,00",
+        "description": ""
+      },
+      {
+        "name": "Black Label · 12 anos",
+        "price": "18,00",
+        "description": ""
+      }
+    ]
+  }
+]

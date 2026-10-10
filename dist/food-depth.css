@@ -1,0 +1,19 @@
+/* Large cutouts with depth; the plate remains whole and captions stay still. */
+.dishes{gap:24px;padding-top:18px}
+.dish figure{perspective:850px;isolation:isolate;overflow:visible}
+.dish figure:before{content:'';position:absolute;z-index:-1;left:15%;right:15%;bottom:11%;height:18%;border-radius:50%;background:radial-gradient(ellipse,#5c260b55,transparent 70%);filter:blur(12px);transform:scaleX(1.15);pointer-events:none}
+.dish figure img{position:relative;z-index:1;width:110%;max-width:none;margin-left:-5%;transform:translate3d(0,-8px,34px) rotate(-3deg) scale(1.04);filter:drop-shadow(0 25px 15px #5425094d) drop-shadow(0 6px 3px #54250926);transition:transform 260ms var(--ease-out),filter 260ms ease;transform-origin:50% 60%;backface-visibility:hidden}
+.dish.featured figure img{width:116%;margin-left:-8%;transform:translate3d(0,-14px,48px) rotate(2deg) scale(1.04);filter:drop-shadow(0 32px 18px #54250955) drop-shadow(0 7px 4px #54250926)}
+.dish:last-child figure img{transform:translate3d(0,-10px,38px) rotate(-2deg) scale(1.04)}
+.dish figure figcaption{z-index:2;bottom:-2px}
+@media(hover:hover) and (pointer:fine){
+ .dish figure:hover img{filter:drop-shadow(0 36px 19px #54250966) drop-shadow(0 8px 5px #54250926)}
+}
+@media(max-width:700px){
+ .dishes{gap:40px;padding-top:10px}
+ .dish figure img,.dish.featured figure img{width:104%;margin-left:-2%}
+ .dish figure{max-width:320px}
+}
+@media(prefers-reduced-motion:reduce){
+ .dish figure img{transition:none!important}
+}

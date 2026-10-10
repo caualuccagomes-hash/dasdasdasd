@@ -1,0 +1,29 @@
+.full-menu{padding:65px 0 55px;background:#fbf6e6;scroll-margin-top:10px}
+.menu-drawer-toggle{list-style:none;width:fit-content;cursor:pointer;min-width:215px;justify-content:space-between}
+.menu-drawer-toggle::-webkit-details-marker{display:none}
+.menu-drawer-toggle .menu-open-label,.menu-drawer-toggle .menu-close-label{font-size:13px}
+.menu-close-label{display:none!important}
+.menu-drawer[open] .menu-close-label{display:inline!important}
+.menu-drawer[open] .menu-open-label{display:none}
+.menu-drawer-icon{transition:transform 200ms var(--ease-out)}
+.menu-drawer[open] .menu-drawer-icon{transform:rotate(45deg)}
+.menu-drawer-content{padding-top:28px}
+.menu-heading{display:grid;grid-template-columns:1.25fr 1fr;gap:65px;align-items:end;margin-bottom:36px}
+.menu-heading .eyebrow{color:var(--orange);margin-bottom:18px}.menu-heading h2{font-size:clamp(52px,5.5vw,76px)}
+.menu-heading>div:last-child{max-width:350px}.menu-heading p:not(.eyebrow){font-size:14px}.menu-heading .text-link{margin-top:14px;color:var(--orange)}
+.menu-tools{display:grid;grid-template-columns:1.4fr 1fr;gap:22px;border-top:1px solid #2b100526;padding-top:28px}
+.menu-tools label{font-size:11px;font-weight:700;letter-spacing:.5px}
+.menu-tools input,.menu-tools select{display:block;width:100%;min-height:50px;margin-top:8px;border:1px solid #94745366;background:#fffaf0;border-radius:6px;padding:12px 16px;font:400 14px 'DM Sans',sans-serif;color:var(--ink)}
+.menu-source{margin-top:16px;font-size:10px;color:#715d48}.menu-status{font-size:12px;color:#884019;min-height:24px;margin:20px 0 10px}
+.menu-group{border-bottom:1px solid #2b100529}.menu-group:first-child{border-top:1px solid #2b100529}
+.menu-group summary{display:flex;align-items:center;gap:24px;list-style:none;padding:24px 0;cursor:pointer;min-height:74px}
+.menu-group summary::-webkit-details-marker{display:none}.menu-group summary h3{font-size:32px;line-height:1.12}.category-index{font-size:11px;color:#9b4b23;font-weight:700}.category-count{margin-left:auto;font-size:10px;color:#715d48;white-space:nowrap}.category-plus{font-size:26px;color:var(--orange);width:28px;text-align:center;transition:transform 200ms var(--ease-out)}
+.menu-group[open] .category-plus{transform:rotate(45deg)}.menu-group[open] summary h3{color:var(--orange)}
+.menu-group-body{padding:0 0 26px 40px}.menu-group-note{padding:12px 16px;background:#f1e7cb;border-left:3px solid var(--yellow);font-size:12px;margin-bottom:8px;line-height:1.8}
+.menu-items{display:grid;grid-template-columns:1fr 1fr;column-gap:45px}.menu-item{padding:22px 0;border-bottom:1px solid #2b100516;break-inside:avoid}
+.menu-item-top{display:flex;align-items:baseline;justify-content:space-between;gap:18px}.menu-item h4{font-size:15px;line-height:1.45;margin:0;font-weight:700}.menu-price{color:#8b340d;font-size:13px;font-weight:700;text-align:right;line-height:1.7;flex-shrink:0;max-width:55%}.menu-item p{font-size:12px;color:#705e4e;margin-top:8px;line-height:1.75}
+.menu-contact{display:flex;justify-content:space-between;align-items:center;gap:25px;padding:30px 0 0}.menu-contact>p{font-family:'Barlow Condensed',sans-serif;font-size:30px;font-weight:700}.menu-group[hidden],.menu-item[hidden],#menu-empty[hidden]{display:none!important}#menu-empty{padding:25px 0;font-size:14px}
+@media(hover:hover){.menu-group summary:hover h3{color:var(--orange)}}
+@media(min-width:701px) and (max-width:1100px){.nav nav{gap:13px;font-size:11px}.nav .button.small{padding:9px 12px;gap:10px}.menu-item-top{display:block}.menu-price{display:block;max-width:none;text-align:left;margin-top:6px}}
+@media(max-width:700px){.full-menu{padding:60px 0 45px}.menu-heading{grid-template-columns:1fr;gap:24px;margin-bottom:26px}.menu-heading h2{font-size:54px}.menu-tools{grid-template-columns:1fr;gap:16px}.menu-tools input,.menu-tools select{font-size:16px}.menu-group summary{gap:12px;padding:22px 0}.menu-group summary h3{font-size:27px}.category-count{font-size:9px}.category-plus{width:20px}.menu-group-body{padding-left:0}.menu-items{grid-template-columns:1fr}.menu-item-top{gap:14px}.menu-item h4{font-size:14px}.menu-price{font-size:12px;max-width:48%;flex-shrink:1}.menu-contact{flex-direction:column;align-items:flex-start;gap:18px}.menu-group-note{font-size:11px}.menu-contact>p{font-size:28px}}
+@media(prefers-reduced-motion:reduce){.category-plus{transition:none}}

@@ -1,0 +1,3 @@
+.depth-interactive{backface-visibility:hidden;transform-origin:center}
+.depth-interactive.depth-tracking{transition-property:background,box-shadow,filter!important;will-change:transform}
+@media(prefers-reduced-motion:reduce){.depth-interactive{will-change:auto}}
