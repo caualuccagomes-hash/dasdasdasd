@@ -1,0 +1,32 @@
+/* A consistent supporting typeface, with robust local fallbacks. */
+:root{--font-body:'Manrope','Segoe UI',Arial,sans-serif;--font-display:'Barlow Condensed',Impact,'Arial Narrow',sans-serif}
+body{font-family:var(--font-body);font-weight:500;line-height:1.75;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.brand,.rating,.photo-label{font-family:var(--font-display)}
+.brand span{font-family:var(--font-body);font-weight:700;letter-spacing:1.8px}
+.nav nav{font-weight:700;letter-spacing:.1px}
+.button,.text-link{font-family:var(--font-body);font-weight:800;letter-spacing:-.1px}
+.eyebrow,.dish-number{font-family:var(--font-body);font-weight:800}
+.lead{font-size:16px;font-weight:500;line-height:1.85;letter-spacing:-.15px}
+.intro-grid>p:last-child,.about p:not(.eyebrow):not(.editorial-words){font-size:15px;line-height:1.85}
+.editorial-words{font-family:var(--font-body);font-size:23px;font-weight:800;letter-spacing:-.7px;line-height:1.5}
+.quotes blockquote p{font-family:var(--font-body);font-size:17px;font-weight:500;line-height:1.8;letter-spacing:-.25px}
+.quotes cite{font-weight:800;font-size:13px}
+.menu-tools input,.menu-tools select{font-family:var(--font-body)}
+.menu-item h4{font-family:var(--font-body);font-size:15px;font-weight:800;letter-spacing:-.25px}
+.menu-item p{font-family:var(--font-body);font-size:13px;line-height:1.8;font-weight:500}
+.menu-price,.phone,.rating{font-variant-numeric:tabular-nums}
+.menu-price{font-family:var(--font-body);font-weight:800}
+.service-grid p,.dish p,.section-heading>p{font-size:14px;line-height:1.8}
+.location p,.address-panel address{font-family:var(--font-body);font-size:14px;line-height:1.8}
+.phone{font-family:var(--font-body);font-weight:800;letter-spacing:-.8px}
+.hero-bottom{font-weight:800}
+footer{font-size:12px}footer .footer-bottom{font-size:11px}
+@media(max-width:700px){
+ .lead{font-size:14px;line-height:1.75}
+ .intro-grid>p:last-child,.about p:not(.eyebrow):not(.editorial-words){font-size:14px}
+ .editorial-words{font-size:21px}
+ .quotes blockquote p{font-size:15px}
+ .menu-item h4{font-size:14px}.menu-item p{font-size:12px}
+ .service-grid p,.dish p,.section-heading>p{font-size:13px}
+ .hero-proof{font-size:10px}.hero-proof small{font-size:9px}
+}
