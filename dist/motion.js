@@ -9,7 +9,7 @@
     const animation = element.animate([
       { opacity: 0, transform: `translateY(${visual ? 34 : distance}px) scale(${visual ? .96 : 1})` },
       { opacity: 1, transform: 'translateY(0) scale(1)' }
-    ], { duration: visual ? 750 : 600, delay, easing, fill: 'backwards' });
+    ], { duration: visual ? 1150 : 950, delay, easing, fill: 'backwards' });
     running.add(animation);
     animation.finished.then(() => running.delete(animation)).catch(() => running.delete(animation));
   }
@@ -25,7 +25,7 @@
     const entering = entries.filter(entry => entry.isIntersecting);
     entering.forEach((entry, i) => {
       reveal.unobserve(entry.target);
-      enter(entry.target, Math.min(i * 65, 195));
+      enter(entry.target, Math.min(i * 100, 300));
     });
   }, { threshold: .08, rootMargin: '0px 0px -28px 0px' });
   targets.forEach(el => reveal.observe(el));
